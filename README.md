@@ -30,12 +30,12 @@ The following Python libraries are required for this project:
 
 ## File Structure
 Attendance-Management-System/
-- **Attendance                     # Directory to store attendance CSVs**
-- **StudentDetails                 # Directory to store student details CSV**
-- **TrainingImage                  # Directory to save captured training images**
-- **TrainingImageLabel             # Directory to save trained model and password file**
-- **haarcascade_frontalface_default.xml  # Haarcascade file for face detection
-main.py                         # Main script file**
+- **Attendance**                  # Directory to store attendance CSVs
+- **StudentDetails**              # Directory to store student details CSV
+- **TrainingImage**               # Directory to save captured training images
+- **TrainingImageLabel**          # Directory to save trained model and password file
+- **haarcascade_frontalface_default.xml**  # Haarcascade file for face detection
+- **main.py**                         # Main script file
 
 
 
