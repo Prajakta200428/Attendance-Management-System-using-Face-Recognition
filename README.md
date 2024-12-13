@@ -27,45 +27,56 @@ The following Python libraries are required for this project:
 - `time`: Time-related functions
 
 
-##File Structure
 Attendance-Management-System/
 │
-├── Attendance/               # Directory to store attendance CSVs
-├── StudentDetails/           # Directory to store student details CSV
-├── TrainingImage/            # Directory to save captured training images
-├── TrainingImageLabel/       # Directory to save trained model and password file
+├── Attendance/                 # Directory to store attendance CSVs
+├── StudentDetails/             # Directory to store student details CSV
+├── TrainingImage/              # Directory to save captured training images
+├── TrainingImageLabel/         # Directory to save trained model and password file
 ├── haarcascade_frontalface_default.xml  # Haarcascade file for face detection
-└── main.py                   # Main script file
+└── main.py                     # Main script file
 
 
-#Usage Instructions
-1. Prerequisites
+## File Structure
+Usage Instructions
+
+Prerequisites
 Ensure Python 3.x is installed on your system.
-Install the required libraries mentioned above.
-
-2. Password Management
+Install the required libraries mentioned below.
+Password Management
 The system prompts for a password when accessing sensitive functionalities.
 The password can be changed via the "Change Password" menu option.
 
-3. Attendance Reports
+Attendance Reports
 Attendance records are saved as CSV files in the Attendance/ directory.
-Each record includes the student ID, name, date, time, and subject.
+Each record includes:
 
-#Dependencies
+Student ID
+Name
+Date
+Time
+Subject
+Dependencies
 Ensure the following dependencies are installed:
+
 Python 3.x
 OpenCV
 PIL (Pillow)
 Pandas
-
-#Acknowledgments
+Acknowledgments
 The facial recognition functionality is powered by OpenCV.
-Haarcascade classifiers for face detection.
-
-#Future Improvements
+Haarcascade classifiers are used for face detection.
+Future Improvements
 Enhance the UI for better user experience.
 Add support for multiple camera inputs.
 Implement notifications or reminders for attendance.
 Integrate with databases for better scalability.
-vbnet
+css
 Copy code
+
+This format is markdown-compatible and includes clear headings, bullet points, and code sections to enhance readability.
+
+
+
+
+
