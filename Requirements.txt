@@ -1,0 +1,12 @@
+Standard Libraries: Default
+os
+csv 
+time 
+datetime
+tkinter 
+
+Third-Party Libraries:
+cv2     [pip install opencv-python] [pip install opencv-contrib-python] 
+numpy   [pip install numpy]
+Pillow  [pip install pillow]
+pandas  [pip install pandas]
