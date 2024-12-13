@@ -27,56 +27,56 @@ The following Python libraries are required for this project:
 - `time`: Time-related functions
 
 
-Attendance-Management-System/
-│
-├── Attendance/                 # Directory to store attendance CSVs
-├── StudentDetails/             # Directory to store student details CSV
-├── TrainingImage/              # Directory to save captured training images
-├── TrainingImageLabel/         # Directory to save trained model and password file
-├── haarcascade_frontalface_default.xml  # Haarcascade file for face detection
-└── main.py                     # Main script file
-
 
 ## File Structure
-Usage Instructions
+Attendance-Management-System/
+│
+├── Attendance/                     # Directory to store attendance CSVs
+│
+├── StudentDetails/                 # Directory to store student details CSV
+│
+├── TrainingImage/                  # Directory to save captured training images
+│
+├── TrainingImageLabel/             # Directory to save trained model and password file
+│
+├── haarcascade_frontalface_default.xml  # Haarcascade file for face detection
+│
+└── main.py                         # Main script file
 
-Prerequisites
-Ensure Python 3.x is installed on your system.
-Install the required libraries mentioned below.
-Password Management
-The system prompts for a password when accessing sensitive functionalities.
-The password can be changed via the "Change Password" menu option.
 
-Attendance Reports
-Attendance records are saved as CSV files in the Attendance/ directory.
+
+## Usage Instructions
+
+### Prerequisites
+1. Ensure Python 3.x is installed on your system.
+2. Install the required libraries mentioned in the **Dependencies** section below.
+
+### Password Management
+The system prompts for a password when accessing sensitive functionalities.  
+The password can be changed via the **"Change Password"** menu option.
+
+### Attendance Reports
+Attendance records are saved as CSV files in the `Attendance/` directory.  
 Each record includes:
+- **Student ID**
+- **Name**
+- **Date**
+- **Time**
+- **Subject**
 
-Student ID
-Name
-Date
-Time
-Subject
-Dependencies
+## Dependencies
 Ensure the following dependencies are installed:
+- **Python 3.x**
+- **OpenCV**
+- **Pillow** (PIL)
+- **Pandas**
 
-Python 3.x
-OpenCV
-PIL (Pillow)
-Pandas
-Acknowledgments
-The facial recognition functionality is powered by OpenCV.
-Haarcascade classifiers are used for face detection.
-Future Improvements
-Enhance the UI for better user experience.
-Add support for multiple camera inputs.
-Implement notifications or reminders for attendance.
-Integrate with databases for better scalability.
-css
-Copy code
+## Acknowledgments
+- The facial recognition functionality is powered by **OpenCV**.
+- **Haarcascade classifiers** are used for face detection.
 
-This format is markdown-compatible and includes clear headings, bullet points, and code sections to enhance readability.
-
-
-
-
-
+## Future Improvements
+- Enhance the UI for better user experience.
+- Add support for multiple camera inputs.
+- Implement notifications or reminders for attendance.
+- Integrate with databases for better scalability.
