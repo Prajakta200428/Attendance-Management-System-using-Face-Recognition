@@ -27,7 +27,7 @@ The following Python libraries are required for this project:
 - `time`: Time-related functions
 
 
-#File Structure
+##File Structure
 Attendance-Management-System/
 │
 ├── Attendance/               # Directory to store attendance CSVs
